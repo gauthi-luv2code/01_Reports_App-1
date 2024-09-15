@@ -1,6 +1,5 @@
 package in.gautham.request;
 
-import java.time.LocalDate;
 
 import lombok.Data;
 
@@ -10,6 +9,7 @@ public class SearchRequest {    // purpose of this class - form binding
 	private String planName;
 	private String planStatus;
 	private String gender;
-	private LocalDate startDate;
-	private LocalDate endDate;
+	
+	private String startDate;	// LocalDate formate - yyyy-mm-dd
+	private String endDate;
 }
